@@ -1,0 +1,55 @@
+<!-- 練習用-->
+<html>
+<head>
+  <meta http-equiv="content-type" charset="UTF-8">
+  <title>MuSick</title>
+  <meta name="description" content='"MuSick" is the service that you can share you LIKES with other people. You can make your own "MusiCup", and SHARE it on "THE LOUNGE"'>
+  <link rel="shortcut icon" href="pageicon.ico">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+  <link rel="stylesheet" href="styles/style.css">
+  <link rel="icon" href="favicon.ico">
+  <meta http-equiv="Content-Script-Type" content="text/javascript">
+  <script src="../Scripts/jquery-3.6.0.min.js"></script>
+</head>
+<script src="scripts/script.js"></script>
+<body>
+  <div id="left_control">
+    <div id="MuSick_logo">
+    </div>
+    <div id="list_edit">
+      <p id="title">Playing:</p>
+    </div>
+      <input type="file" id="input_file">
+      <div id="list_wrapper">
+        <ul id="list">
+        </ul>
+      </div>
+    <ul id="control_switch">
+      <li id="musicup">
+        <div id="musicup_inner">
+          <img id="Musicup_icon" src="images/MusiCup.svg">
+          <p>MusiCup</p>
+        </div>
+      </li>
+      <li id="lobby">
+        <div id="lobby_inner">
+          <img id="lobby_icon" src="images/MusiCup.svg">
+          <p>Lobby</p>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="PlayTable">
+    <div id="select_set">
+    </div>
+    <ul id="queue_list">
+      <div id="menu">
+      </div>
+    </ul>
+  </div>
+  <div id="Background">
+    <div id="MainPlayer">
+    </div>
+  </div>
+</body>
+</html>
